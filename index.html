@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Application Météo</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header><i class="fa fa-long-arrow-left" aria-hidden="true"></i></i>Meteo</header>
+        <section class="input-part">
+            <p class="info-txt">Entrer svp un nom de ville valide</p>
+            <input type="text" placeholder="Entrer un nom de ville" spellcheck="false" required>
+            <div class="separator"></div>
+            <button>L'emplacement de l'appareil</button>
+
+        </section>
+
+        <section class="weather-part">
+            <img src="#" alt="icone meteo">
+
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="active degres">°</span>C
+            </div>
+            <div class="weather">_ _</div>
+            <div class="location">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>_, _</span>
+            </div>
+            <div class="bottom-details">
+                <div class="column feels">
+                    <i class="fa fa-thermometer-empty" aria-hidden="true"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="degres">°</span>C
+                        </div>
+                        <p>Feels like</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class="fa fa-tint" aria-hidden="true"></i>
+                    <div class="details">
+                        <span class="numb">_</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+    <script src="./app.js"></script>
+    <script src="https://use.fontawesome.com/d20e51ca28.js"></script>
+</body>
+</html>
