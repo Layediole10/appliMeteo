@@ -41,7 +41,7 @@ function onError(error){
 
 function requestApi(city){
 
-    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=811c337d89761b9ba9c8bff1e4cc8e97`
+    api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=68aa0d59d873cc883705293686021ee4`
     fetchData();
 }
 
@@ -96,7 +96,7 @@ function weatherDetails(info){
         wrapper.querySelector(".humidity span").innerText = `${humidity}%`;
        
 
-        infoText.classList.remove("pending", "error")
+        infoText.classList.remove("pending", "error");
         wrapper.classList.add("active");
         console.log(info);
 
